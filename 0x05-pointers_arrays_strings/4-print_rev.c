@@ -5,20 +5,15 @@
  * @s: a string to printed
  * Return: void
  */
-void print_rev(char *s)
+Void print_rev(char *s)
 {
-	char rev = s[0];
-	int counter = 0;
-	int i;
+	Int z;
+	Int revs = 0;
 
-	while (s[counter] != '\0')
-		counter++;
-	for (i = 0; i > counter; i++)
-	{
-		counter--;
-		rev = s[i];
-		s[i] = s[counter];
-		s[counter] = rev;
-	}
-	_putchar('\n');
+	for (z = 0; s[z] != '\0' z++)
+		revs++
+
+			for (z = revs - 1; z >= 0; z--)
+				_putchar(s[z]);
+	_putchar('\0');
 }
