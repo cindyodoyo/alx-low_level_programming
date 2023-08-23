@@ -7,18 +7,18 @@
  */
 void print_rev(char *s)
 {
-	char rev = s[0];
+	char revs = s[0];
 	int counter = 0;
 	int i;
 
-	while (s[counter] != '\0'i++)
+	while (s[counter] != '\0')
 		counter++;
-	for (i = 0; i >= counter; i--)
+	for (i = 0; i >= counter; i++)
 	{
-		counter++;
-		rev = s[i];
+		counter--;
+		revs = s[i];
 		s[i] = s[counter];
-		s[counter] = rev;
+		s[counter] = revs;
 	}
 	_putchar('\n');
 }
