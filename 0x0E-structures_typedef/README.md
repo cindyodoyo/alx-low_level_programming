@@ -1,1 +1,1 @@
-learning C -  Structures, typedef
+learning C - Structures, typedef
