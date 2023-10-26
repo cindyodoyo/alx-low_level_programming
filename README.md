@@ -1,1 +1,1 @@
-learning 0x12. C - Singly linked lists
+learning 0x14. C - Bit manipulation
